@@ -20,7 +20,7 @@ def move_hand(joint_positions):
     # Create a trajectory point with the desired joint positions
     point = JointTrajectoryPoint()
     point.positions = joint_positions
-    point.time_from_start = rospy.Duration(5)  # Specify time for the arm to reach the goal positions
+    point.time_from_start = rospy.Duration(2)  # Specify time for the arm to reach the goal positions
 
     # Add the trajectory point to the goal
     goal.trajectory.points.append(point)
@@ -34,7 +34,7 @@ def move_hand(joint_positions):
 if __name__ == '__main__':
     try:
         # Example joint positions (modify as per your robot's configuration)
-        joint_hand_positions = [9.368376168422401e-05, -8.465043646283449e-05]
+        joint_hand_positions = [0.0011578212707099127, -0.008221930186906512]
         move_hand(joint_hand_positions)
         rospy.loginfo("Complete")
     except rospy.ROSInterruptException:

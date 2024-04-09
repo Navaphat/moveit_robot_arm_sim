@@ -20,7 +20,7 @@ def move_arm(joint_positions):
     # Create a trajectory point with the desired joint positions
     point = JointTrajectoryPoint()
     point.positions = joint_positions
-    point.time_from_start = rospy.Duration(5)  # Specify time for the arm to reach the goal positions
+    point.time_from_start = rospy.Duration(2)  # Specify time for the arm to reach the goal positions
 
     # Add the trajectory point to the goal
     goal.trajectory.points.append(point)
