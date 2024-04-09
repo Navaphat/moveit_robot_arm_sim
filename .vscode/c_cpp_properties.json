@@ -1,0 +1,57 @@
+{
+  "configurations": [
+    {
+      "browse": {
+        "databaseFilename": "${default}",
+        "limitSymbolsToIncludedHeaders": false
+      },
+      "includePath": [
+        "/home/navaphat/project_ws/devel/include/**",
+        "/opt/ros/noetic/include/**",
+        "/home/navaphat/WorkSpace/catkin_test/devel/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/a1_config/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/aliengo_config/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/anymal_b_config/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/anymal_c_config/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/astro_config/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/bruno_config/include/**",
+        "/home/navaphat/project_ws/src/champ/champ/include/**",
+        "/home/navaphat/project_ws/src/champ/champ_base/include/**",
+        "/home/navaphat/project_ws/src/champ/champ_config/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/dkitty_config/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/dream_walker_config/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/go1_config/include/**",
+        "/home/navaphat/WorkSpace/catkin_test/src/homework_ws/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/littledog_config/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/mini_cheetah_config/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/mini_pupper_config/include/**",
+        "/home/navaphat/project_ws/src/robots/descriptions/spot_mini_mini/mini_ros/include/**",
+        "/home/navaphat/WorkSpace/catkin_test/src/minitest/include/**",
+        "/home/navaphat/WorkSpace/catkin_test/src/minitest_1/include/**",
+        "/home/navaphat/WorkSpace/catkin_test/src/minitest_2/include/**",
+        "/home/navaphat/WorkSpace/catkin_test/src/mobile_robot/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/open_quadruped_config/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/opendog_config/include/**",
+        "/home/navaphat/WorkSpace/catkin_test/src/package1/include/**",
+        "/home/navaphat/WorkSpace/catkin_test/src/ros_camera_node/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/spot_config/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/spotmicro_config/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/stanford_pupper_config/include/**",
+        "/home/navaphat/project_ws/src/robots/configs/stochlite_config/include/**",
+        "/home/navaphat/WorkSpace/catkin_test/src/test_custom_msg/include/**",
+        "/home/navaphat/WorkSpace/catkin_test/src/test_gotogoal/include/**",
+        "/home/navaphat/WorkSpace/catkin_test/src/test_ros_action/include/**",
+        "/home/navaphat/WorkSpace/catkin_test/src/test_ros_service/include/**",
+        "/home/navaphat/project_ws/src/6-DOF-Arm-SImulation/urdf_arm/include/**",
+        "/home/navaphat/project_ws/src/yocs_velocity_smoother/include/**",
+        "/usr/include/**"
+      ],
+      "name": "ROS",
+      "intelliSenseMode": "gcc-x64",
+      "compilerPath": "/usr/bin/gcc",
+      "cStandard": "gnu11",
+      "cppStandard": "c++14"
+    }
+  ],
+  "version": 4
+}

@@ -1,0 +1,12 @@
+{
+    "python.autoComplete.extraPaths": [
+        "/home/navaphat/project_ws/devel/lib/python3/dist-packages",
+        "/home/navaphat/WorkSpace/catkin_test/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ],
+    "python.analysis.extraPaths": [
+        "/home/navaphat/project_ws/devel/lib/python3/dist-packages",
+        "/home/navaphat/WorkSpace/catkin_test/devel/lib/python3/dist-packages",
+        "/opt/ros/noetic/lib/python3/dist-packages"
+    ]
+}
